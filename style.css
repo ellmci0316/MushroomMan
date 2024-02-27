@@ -1,0 +1,52 @@
+.headertext {
+    top: auto;
+    left: 50%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  }
+
+  .paragraphtext {
+    text-align: center;
+    padding: 2%;
+    color: black;
+  }
+
+  .quotetext {
+    text-align: center;
+    color: black;
+  }
+
+  .bottomdiv {
+    color: whitesmoke;
+    background-color: black;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.map-container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
